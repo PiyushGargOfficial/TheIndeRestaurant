@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Kristi|Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: FreightSansPro;
+    src: url('../assets/fonts/FreightSansPro.otf');
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.whiteBorder {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.blackBorder {
+    border: 2px solid #1C1B20;
+    padding: 10px;
+}
+
+@keyframes movedown {
+
+    /* 0% {
+        margin-top: 5px;
+        opacity: 1;
+    }
+
+    25% {
+        margin-top: 9px;
+        opacity: .8;
+    }
+
+    50% {
+        margin-top: 13px;
+        opacity: .6;
+    }
+
+    75% {
+        margin-top: 17px;
+        opacity: 0.4;
+    }
+
+    100% {
+        margin-top: 21px;
+        opacity: 0.2;
+    } */
+    from {
+        margin-top: 5px;
+        opacity: 1;
+    }
+
+    to {
+        margin-top: 21px;
+        opacity: .2;
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.3;
+    }
+}
+
+.t-transform-none {
+    text-transform: none !important;
+}

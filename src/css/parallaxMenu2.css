@@ -1,0 +1,33 @@
+.parallaxMenu2 {
+    height: 60vh;
+    width: 100%;
+    background: url('../assets/images/rest1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.parallaxMenu2 .headingPm span {
+    font-family: 'Kristi', cursive;
+    text-transform: capitalize !important;
+    font-style: italic;
+    color: #cfa670;
+    letter-spacing: 0;
+    font-size: 4.5rem;
+}
+
+.parallaxMenu2 .headingPm {
+    padding: 20px;
+    z-index: 9;
+    font-size: 3.5rem;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    text-transform: uppercase;
+}
