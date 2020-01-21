@@ -1,0 +1,107 @@
+.branches {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    padding: 30px 150px 50px;
+}
+
+.branches .wrapperB {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.branches .wrapperB .headB {
+    position: relative;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #222222;
+    letter-spacing: -4px;
+    line-height: 1em;
+}
+
+.branches .wrapperB .headB span {
+    position: relative;
+    font-family: "Kristi", sans-serif;
+    font-size: 4.5rem;
+    font-style: italic;
+    letter-spacing: 0;
+    color: #cfa670;
+    line-height: 50px;
+    text-transform: capitalize !important;
+    font-weight: normal;
+
+}
+
+
+.branches .wrapperB .gridB {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+}
+
+.branches .wrapperB .gridB .itemGb {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+}
+
+.branches .wrapperB .gridB .itemGb .headIgb {
+    text-transform: uppercase;
+    font-size: .9rem;
+    color: #424242;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+
+.branches .wrapperB .gridB .itemGb .addressIgb {
+    width: 100%;
+    font-size: .9rem;
+    color: #424242;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+.branches .wrapperB .gridB .itemGb .phoneIgb {
+    text-transform: uppercase;
+    width: 100%;
+    font-size: .9rem;
+    color: #424242;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+
+.branches .wrapperB .gridB .itemGb .getDirIgb {
+    text-transform: capitalize;
+    width: 100%;
+    font-size: .85rem;
+    display: flex;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    align-items: center;
+}
+
+.branches .wrapperB .gridB .itemGb .getDirIgb img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}

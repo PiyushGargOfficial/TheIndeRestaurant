@@ -1,0 +1,83 @@
+.dinExp {
+    height: 89vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 140px;
+    margin-bottom: 40px;
+
+}
+
+.dinExp .wrapperDe {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dinExp .wrapperDe .imageWde {
+    position: relative;
+    height: 100%;
+    width: 60%;
+}
+
+.dinExp .wrapperDe .imageWde img {
+    width: 100%;
+    height: 100%;
+}
+
+.dinExp .wrapperDe .detailsWde {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 50%;
+    height: 80%;
+    padding: 40px 50px;
+    background: #fff;
+}
+
+.dinExp .wrapperDe .detailsWde .headDwde {
+    position: relative;
+    font-size: 3.5rem;
+    letter-spacing: -4px;
+    color: #424242;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.dinExp .wrapperDe .detailsWde .headDwde span {
+    font-family: "Kristi", sans-serif;
+    font-size: 4.5rem;
+    color: #cfa670;
+    line-height: 50px;
+    font-style: italic;
+    letter-spacing: 0 !important;
+    text-transform: capitalize;
+}
+
+.dinExp .wrapperDe .detailsWde .subtitleDwde {
+    font-size: .75rem;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #424242;
+    line-height: 1.8;
+}
+
+.dinExp .wrapperDe .detailsWde .textDwde {
+    font-size: .9rem;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 10px;
+    text-transform: normal;
+    color: #888;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    line-height: 2;
+}
