@@ -1,0 +1,155 @@
+.about2 {
+  width: 100%;
+  height: 140vh;
+  position: relative;
+  background: #fff;
+}
+
+.about2 .founderSec2 {
+  width: 100%;
+  height: 28.58%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about2 .founderSec2 .innerFs {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.about2 .founderSec2 .innerFs .messageFc {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
+  width: 100%;
+  word-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.about2 .founderSec2 .innerFs .profileSecFc {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #424242;
+  font-weight: bold;
+  width: 100%;
+  line-height: 1.8;
+}
+
+.about2 .founderSec2 .innerFs .signatureFc {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #fff;
+  line-height: 1.8;
+  padding: 3px 10px;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 3px;
+  background: #222222;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.about2 .ourStorySec2 {
+  height: 71.42%;
+  width: 100%;
+  position: relative;
+  padding: 50px 90px 70px 90px;
+}
+
+.about2 .ourStorySec2 .innerOss {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about2 .ourStorySec2 .innerOss .imageSecSs {
+  position: relative;
+  height: 100%;
+  width: 60%;
+}
+
+.about2 .ourStorySec2 .innerOss .imageSecSs a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.about2 .ourStorySec2 .innerOss .imageSecSs a img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.about2 .ourStorySec2 .innerOss .detailsSs {
+  width: 50%;
+  position: absolute;
+  height: 60%;
+  top: 5%;
+  right: 0;
+  background: #25252f;
+  padding: 40px;
+  z-index: 2;
+}
+
+.about2 .ourStorySec2 .innerOss .detailsSs .headerIdss {
+  position: relative;
+  font-size: 4.3rem;
+  font-family: "Kristi", cursive;
+  color: #cfa026;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+
+.about2 .ourStorySec2 .innerOss .detailsSs .titleIdss {
+  position: relative;
+  font-size: 3.5rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: -4px;
+  line-height: 1em;
+  margin: 10px 0;
+  font-weight: 300;
+}
+
+.about2 .ourStorySec2 .innerOss .detailsSs .mainIdss {
+  position: relative;
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  line-height: 1.8;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.about2 .ourStorySec2 .innerOss .detailsSs .messageIdss {
+  position: relative;
+  font-size: 0.85rem;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0px;
+  word-spacing: 4px;
+  text-align: left;
+  padding-right: 50px;
+}

@@ -1,0 +1,160 @@
+.mainMG {
+    height: 65vh;
+    margin: 20px 0;
+    width: 100%;
+    position: relative;
+    padding: 30px 150px;
+    overflow: hidden;
+}
+
+.mainMG .wrapperMmg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainMG .wrapperMmg .headMmg {
+    height: 17%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainMG .wrapperMmg .headMmg .wrapperHmmg {
+    position: relative;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+.mainMG .wrapperMmg .menuItemGrid {
+    height: 83%;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    overflow: hidden;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-right: 43px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    min-width: 580px;
+}
+
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .nameMi {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .nameMi .nameMiu {
+    text-transform: uppercase;
+    z-index: 2;
+    font-weight: 700;
+    font-size: 1rem;
+    position: relative;
+    color: #000;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    font-family: "Lato", sans-serif;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .nameMi .priceMiu {
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: 1.05rem;
+    position: relative;
+    color: #000;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .detailsMi {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .detailsMi .nameMid {
+    position: relative;
+    text-transform: capitalize;
+    font-size: .8rem;
+    font-weight: normal;
+    color: #424242;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .detailsMi .barMid {
+    position: relative;
+    text-transform: capitalize;
+    font-size: .8rem;
+    display: flex;
+    font-weight: normal;
+    color: #424242;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8;
+}
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .detailsMi .barMid .orderMid {
+    position: relative;
+    margin-right: 5px;
+    padding: 3px 7px;
+    background: #d3a202;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .63rem;
+    line-height: 1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+.mainMG .wrapperMmg .menuItemGrid .menuItem .detailsMi .barMid .starMid {
+    position: relative;
+    padding: 3px 5px;
+    background: #d3a202;
+    line-height: 1rem;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+img {
+    width: 10px;
+    height: 10px;
+}
