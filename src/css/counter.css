@@ -1,0 +1,47 @@
+.counter {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 150px;
+    background: rgb(28, 28, 62);
+    background: linear-gradient(135deg, rgba(28, 28, 62, 1) 10%, rgba(28, 28, 62, 1) 32%, rgba(48, 48, 58, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.counter .wrapperC {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter .wrapperC div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.counter .wrapperC div .numberWc {
+    position: relative;
+    font-size: 3.1rem;
+    line-height: 50px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter .wrapperC div .nameWc {
+    position: relative;
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #eee;
+    font-family: "Lato", sans-serif;
+}

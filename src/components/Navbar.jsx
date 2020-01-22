@@ -179,7 +179,11 @@ export default class Navbar extends Component {
                     menu
                   </li>
                 </Link>
-                <li>services</li>
+                <Link to="/services" style={{ textDecoration: "none" }}>
+                  <li className="navItem" onClick={this.handleNavItems}>
+                    services
+                  </li>
+                </Link>
                 <li>blog</li>
                 <li>contact</li>
                 <li
