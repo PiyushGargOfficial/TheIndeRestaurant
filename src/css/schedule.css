@@ -1,5 +1,4 @@
 .schedule {
-    height: 90vh;
     width: 100%;
     overflow: hidden;
     padding: 20px 300px;
@@ -10,7 +9,6 @@
 
 
 .schedule .wrapperSc {
-    height: 100%;
     width: 69%;
 }
 
