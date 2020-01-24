@@ -7,6 +7,7 @@ import MainHome from "./components/MainHome"
 import MainAbout from "./components/MainAbout"
 import MainMenu from "./components/MainMenu"
 import MainServices from "./components/MainServices"
+import MainBlog from "./components/MainBlog"
 
 import "./css/essentials.css"
 import "./css/home.css"
@@ -28,6 +29,7 @@ function App() {
         <Route path="/about" exact component={MainAbout} />
         <Route path="/menu" exact component={MainMenu} />
         <Route path="/services" exact component={MainServices} />
+        <Route path="/blog" exact component={MainBlog} />
       </Switch>
       <Footer />
     </div>

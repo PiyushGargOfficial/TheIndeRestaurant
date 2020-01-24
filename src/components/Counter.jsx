@@ -21,7 +21,7 @@ export default class Counter extends Component {
           </div>
           <div>
             <div className="numberWc">
-              <CountUp end={23500} delay={2} start={1} duration={5} />
+              <CountUp end={23500} delay={2} start={1} duration={4.5} />
             </div>
             <div className="nameWc">customers served</div>
           </div>

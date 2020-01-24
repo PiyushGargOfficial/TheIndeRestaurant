@@ -184,7 +184,11 @@ export default class Navbar extends Component {
                     services
                   </li>
                 </Link>
-                <li>blog</li>
+                <Link to="/blog" style={{ textDecoration: "none" }}>
+                  <li className="navItem" onClick={this.handleNavItems}>
+                    blog
+                  </li>
+                </Link>
                 <li>contact</li>
                 <li
                   className={
