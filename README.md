@@ -17,3 +17,12 @@ This project is done as for now.
 //This is a static website and the layout and images are inspired from a theme but the code is done all by me solely.
 
 Live : https://theinderestaurantv6.netlify.com/
+
+For Personal Use :-
+
+Clone using :- git clone https://github.com/PiyushGargOfficial/TheIndeRestaurant.git
+Download using :- download button
+
+Then just open this in your preferable code editor and do :-
+**npm install**
+and make sure you have react , node , npm on your system.
