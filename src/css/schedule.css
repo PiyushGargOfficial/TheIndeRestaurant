@@ -1,0 +1,71 @@
+.schedule {
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.schedule .wrapperSc {
+    height: 100%;
+    width: 69%;
+}
+
+.schedule .wrapperSc .headSc {
+    font-size: 1.9rem;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.8;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 10px;
+}
+
+.schedule .wrapperSc .subTSc {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.8;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 25px;
+}
+
+.schedule .wrapperSc table {
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule .wrapperSc table tr {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.schedule .wrapperSc table tr td,
+.schedule .wrapperSc table tr th {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8;
+    padding: 20px;
+    width: 33%;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.schedule .wrapperSc table tr td {
+    font-weight: 400;
+    line-height: 1.8;
+}

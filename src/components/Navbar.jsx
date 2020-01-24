@@ -189,7 +189,11 @@ export default class Navbar extends Component {
                     blog
                   </li>
                 </Link>
-                <li>contact</li>
+                <Link to="/contact" style={{ textDecoration: "none" }}>
+                  <li className="navItem" onClick={this.handleNavItems}>
+                    contact
+                  </li>
+                </Link>
                 <li
                   className={
                     isTop
